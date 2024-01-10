@@ -1,0 +1,53 @@
+@import "normalize.css";
+@import "mixins";
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: var(--text);
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.app {
+    display: flex;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+
+    li {
+        list-style: none;
+    }
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1 {
+    margin-bottom: 32px;
+}
+
+h2 {
+    margin-bottom: 16px;
+}
+
+p {
+    margin-bottom: 16px;
+}
